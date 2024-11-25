@@ -1,0 +1,14 @@
+CRITICAL - 2024-11-07 02:00:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: home/inicio]
+in APPPATH/Views/principal.php on line 380.
+ 1 APPPATH/Views/principal.php(380): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u437507083/domains/oscaralas.link/public_html/prosaludlab/app/Views/principal.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(42): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->inicio()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
